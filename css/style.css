@@ -1,0 +1,354 @@
+body {
+  min-width:749px;
+  margin:0;
+  font-family: 'Karla','Arial', sans-serif;
+  font-weight:700;
+  font-size:20px;
+  color: #ffffff;
+  line-height: auto;
+  text-transform: uppercase;
+  background-color: #000000;
+}
+.main {
+  display:block;
+}
+.main-header{
+  position:relative;
+  margin-top:-30px;
+  margin-bottom:112px;
+  background-color: #7eefcc;
+  padding-top:125px;
+  padding-left: 100px;
+  padding-bottom:100px;
+}
+
+.container {
+  width:540px;
+  margin:0 auto;
+}
+.new-account-header {
+  position:relative;
+
+
+  background-color: #7eefcc;
+  padding-top:25px;
+  padding-left: 10px;
+  padding-bottom:40px;
+}
+.above-head {
+  margin-bottom:60px;
+}
+.chat-title {
+  position:relative;
+  width:520px;
+  margin:0 auto;
+  margin-left:80px;
+
+  font-size: 150px;
+  text-transform: none;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  color:#000000;
+  line-height: auto;
+}
+.new-account-title {
+  margin-left:80px;
+  text-transform: none;
+  letter-spacing: -0.05em;
+  font-size: 40px;
+  font-weight: 800;
+  color:#000000;
+  line-height: auto;
+}
+.chat-title::before {
+  content: "";
+  position: absolute;
+  top:-60px;
+  left:155px;
+  width:1900px;
+  height:190px;
+  background: transparent url("../img/icon1.png") no-repeat ;
+  background-size: 220px 200px;
+}
+.info {
+  margin-top:60px;
+  margin-left:570px;
+}
+.form {
+  position:relative;
+  margin-top: 100px;
+  margin-left:180px;
+}
+.form-new-account {
+   position:relative;
+}
+.form-new-account::before {
+  content: "";
+  position: absolute;
+  top:45px;
+  left:-140px;
+  width:40px;
+  height:40px;
+  background: transparent url("../img/sprite.png") no-repeat ;
+  background-position:  -110px 0;
+}
+.form-new-account::after {
+  content: "";
+  position: absolute;
+  top:155px;
+  left:-135px;
+  width:40px;
+  height:40px;
+  background: transparent url("../img/sprite.png") no-repeat ;
+}
+.icon::before {
+  content: "";
+  position: absolute;
+  top:5px;
+  left:-135px;
+  width:40px;
+  height:40px;
+  background: transparent url("../img/sprite.png") no-repeat ;
+  background-position:  -181px 0;
+}
+.icon::after {
+  content: "";
+  position: absolute;
+  top:150px;
+  left:-138px;
+  width:40px;
+  height:40px;
+  background: transparent url("../img/sprite.png") no-repeat ;
+  background-position:  -228px 0;
+}
+.icon1 {
+  position:relative;
+}
+.icon1::before {
+  content: "";
+  position: absolute;
+  top:-70px;
+  left:-135px;
+  width:40px;
+  height:40px;
+  background: transparent url("../img/sprite.png") no-repeat ;
+
+}
+.icon1::after {
+  content: "";
+  position: absolute;
+  top:80px;
+  left:-138px;
+  width:40px;
+  height:40px;
+  background: transparent url("../img/sprite.png") no-repeat ;
+  background-position:  -50px 0;
+}
+.form-text {
+  display:block;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: auto;
+  color:#b8a6e4;
+}
+.new-account-text {
+  display:block;
+  padding:0;
+  margin: 0;
+  margin-bottom: -30px;
+  margin-top: 40px;
+  margin-left: 190px;
+  font-family: 'Karla','Arial', sans-serif;
+  font-weight:400;
+  font-size:34px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+  outline: none;
+  color: #ffffff;
+  line-height: auto;
+}
+.new-account-link {
+  position: relative;
+}
+.new-account-link::before {
+  content: "";
+  position: absolute;
+  top:30px;
+  left:30px;
+  height:18px;
+  width:20px;
+  background: transparent url("../img/icon-dir.png") no-repeat center;
+}
+.name-input {
+  display:block;
+  margin-bottom:80px;
+  margin-top: -10px;
+  width:400px;
+  font-family: 'Karla','Arial', sans-serif;
+  font-weight:700;
+  font-size:20px;
+  letter-spacing: 0em;
+  outline: none;
+  color: #ffffff;
+  line-height: auto;
+  background-color: #000000;
+  border:none;
+}
+.pass-input {
+  width:400px;
+  margin-top: -15px;
+  font-family: 'Karla','Arial', sans-serif;
+  font-weight:700;
+  font-size:20px;
+  outline: none;
+  letter-spacing: 0.6em;
+  color: #ffffff;
+  line-height: auto;
+  background-color: #000000;
+  border:none;
+}
+.phone-text {
+  display: block;
+  margin-top: 60px;
+}
+.phone-input {
+  display:block;
+  margin-bottom:80px;
+  margin-top: 10px;
+  width:400px;
+  font-family: 'Karla','Arial', sans-serif;
+  font-weight:700;
+  font-size:20px;
+  letter-spacing: 0em;
+  outline: none;
+  color: #ffffff;
+  line-height: auto;
+  background-color: #000000;
+  border:none;
+}
+input[type="submit"] {
+  display:block;
+  height:85px;
+  width:520px;
+  text-align: center;
+  cursor: default;
+  margin-top:100px;
+  margin-left:-160px;
+  border: none;
+
+  text-align: center;
+  font-family: 'Karla','Arial', sans-serif;
+  font-size:20px;
+  font-weight: 600;
+  text-decoration: none;
+  color:#000000;
+  vertical-align: middle;
+  background-color: #b8a6e4;
+}
+.btn {
+ display:block;
+ padding-top:30px;
+ height:55px;
+
+ text-align: center;
+ font-family: 'Karla','Arial', sans-serif;
+ text-decoration: none;
+ color:#000000;
+ vertical-align: middle;
+
+}
+.action:hover{
+  background-color: #eae1ff;
+}
+.action:active{
+  background-color: #b79ef5;
+}
+.new-account {
+  float:left;
+}
+.forgotpass {
+  float:right;
+}
+.main-footer {
+  margin-top:40px;
+  margin-bottom:85px;
+  padding-left: 50px;
+  padding-right: 40px;
+  text-transform: none;
+}
+.link {
+  text-transform: none;
+  font-family: 'Karla','Arial', sans-serif;
+  text-decoration: none;
+  color:#ffffff;
+}
+.left {
+  margin-left: 10px;
+}
+.action {
+  position:relative;
+}
+.action1 {
+  position: relative;
+}
+.action2 {
+  position: relative;
+}
+.action3 {
+  position: relative;
+}
+.action4 {
+  position: relative;
+}
+.action::after {
+  content: "";
+  position: absolute;
+  bottom:180px;
+  left:-1px;
+  height:2px;
+  width:350px;
+  background: transparent url("../img/divider.png") no-repeat center;
+}
+.action1::before {
+  content: "";
+  position: absolute;
+  bottom:-90px;
+  left:-1px;
+  height:2px;
+  width:350px;
+  background: transparent url("../img/divider.png") no-repeat center;
+}
+.action2::after {
+  content: "";
+  position: absolute;
+  top:265px;
+  height:2px;
+  width:350px;
+  background: transparent url("../img/divider.png") no-repeat center;
+}
+.action3::after {
+  content: "";
+  position: absolute;
+  top:25px;
+  height:2px;
+  width:350px;
+  background: transparent url("../img/divider.png") no-repeat center;
+}
+.action4::before {
+  content: "";
+  position: absolute;
+  top:110px;
+  left:-1px;
+  height:2px;
+  width:350px;
+  background: transparent url("../img/divider.png") no-repeat center;
+}
+.action4::after {
+  content: "";
+  position: absolute;
+  top:270px;
+  left:-1px;
+  height:2px;
+  width:350px;
+  background: transparent url("../img/divider.png") no-repeat center;
+}
