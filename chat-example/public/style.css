@@ -29,7 +29,7 @@ html, body {
 
 ul {
   list-style: none;
-  word-wrap: break-word;
+   word-wrap: break-word;
 }
 
 /* Pages */
@@ -39,6 +39,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color:#000000;
 }
 
 .page {
@@ -75,6 +76,7 @@ ul {
 
 .login.page .title {
   font-size: 200%;
+  font-family: 'Karla','Arial', sans-serif;
 }
 
 .login.page .usernameInput {
@@ -92,7 +94,24 @@ ul {
 .chat.page {
   display: none;
 }
+.message {
+   position:relative;
+   margin:60px;
+   padding:20px;
+   width:300px;
+   font-size:20px;
+   color:#000000;
+   font-family: 'Karla','Arial', sans-serif;
+ background-color:#7eefcc;
+}
 
+.username {
+   position:absolute;
+   left:-40px;
+   top:-35px;
+  
+}
+   
 /* Font */
 
 .messages {
@@ -101,13 +120,18 @@ ul {
 
 .inputMessage {
   font-size: 100%;
+  
 }
 
-.log {
+.log  {
   color: gray;
+  font-family: 'Karla','Arial', sans-serif;
+  font-weight:bold;
+  color:#ffffff;
   font-size: 70%;
   margin: 5px;
   text-align: center;
+  
 }
 
 /* Messages */
@@ -122,6 +146,7 @@ ul {
   margin: 0;
   overflow-y: scroll;
   padding: 10px 20px 10px 20px;
+
 }
 
 .message.typing .messageBody {
